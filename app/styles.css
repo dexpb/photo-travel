@@ -1,0 +1,13 @@
+.custom-bullet {
+    background-color: lime; /* Lime color for pagination bullets */
+    opacity: 0.7;
+  }
+  .custom-bullet-active {
+    background-color: lime; /* Lime color for active pagination bullet */
+    opacity: 1;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: lime; /* Lime color for navigation buttons */
+  }
+  
