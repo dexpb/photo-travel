@@ -1,10 +1,9 @@
-"use client";
-import { useEffect, useRef } from "react";
+
+
 import { ServicesDiv } from "@/components/sevices";
 import { BestOptions } from "./../components/best-options";
 import SwiperImages from "@/components/swiper";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 
 import { Comments } from "@/components/comments";
 import { ContactUs } from "@/components/contact-us";
@@ -12,21 +11,7 @@ import { Footer } from "@/components/footer";
 import { HomeSide } from "@/components/home";
 
 export default function Home() {
-  const swiperRef = useRef<HTMLDivElement | null>(null);
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-
-    gsap.to(swiperRef.current, {
-      scale: 0.95, // Reduz o tamanho em 5%
-      scrollTrigger: {
-        trigger: swiperRef.current,
-        start: "top top", // Quando a imagem atinge o topo da viewport
-        end: "+=1000px", // Ajuste conforme o comprimento do texto
-        scrub: 1, // Anima a imagem conforme o scroll
-      },
-    });
-  }, []);
-
+  
   return (
     <div className="flex min-h-screen flex-col dark:text-tahiti">
       <div className="flex flex-col lg:flex-row bg-zinc-950">
@@ -36,7 +21,7 @@ export default function Home() {
         </div>
 
         {/* Conteúdo principal ao lado direito */}
-        <div className="flex flex-1 flex-col gap-10 p-10" ref={swiperRef}>
+        <div className="flex flex-1 flex-col gap-10 p-10" >
           {/* Barra de navegação */}
           <nav className="font-inter text-2xl font-semibold hidden ">
             <ul className="flex flex-row items-center justify-around gap-20">
