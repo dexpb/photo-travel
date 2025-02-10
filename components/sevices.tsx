@@ -57,6 +57,7 @@ export function ServicesDiv() {
                 alt="Pessoa na rua em Londres"
                 width={500}
                 height={500}
+                loading="lazy"
               />
               <div className="m-10 flex w-5/6 justify-between font-inter">
                 <p>Londres (Inglaterra) </p>
@@ -72,6 +73,7 @@ export function ServicesDiv() {
                 alt="Mulher na praia"
                 width={500}
                 height={500}
+                loading="lazy"
               />
               <div className="m-10 flex w-5/6 justify-between font-inter">
                 <p>Seul (Coreia do Sul) </p>
@@ -87,6 +89,7 @@ export function ServicesDiv() {
                 alt="Mulher tirando foto"
                 width={500}
                 height={500}
+                loading="lazy"
               />
               <div className="m-10 flex w-5/6 justify-between font-inter">
                 <p>Califórnia (Estados Unidos) </p>
@@ -102,6 +105,7 @@ export function ServicesDiv() {
                 alt="Mulher em uma igreja"
                 width={500}
                 height={500}
+                loading="lazy"
               />
               <div className="m-10 flex w-5/6 justify-between font-inter">
                 <p>Istambul (Turquia)</p>

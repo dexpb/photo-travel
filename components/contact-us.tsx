@@ -26,6 +26,7 @@ export function ContactUs() {
           alt="Fale conosco"
           width={0}
           height={0}
+          loading="lazy"
         />
         <div className="m-10 gap-10 lg:m-28 flex flex-col">
           <h1 className="text-6xl uppercase lg:text-8xl">Fale conosco!</h1>
