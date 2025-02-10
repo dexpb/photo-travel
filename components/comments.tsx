@@ -1,5 +1,6 @@
+'use client'
 import Image from "next/image";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { slideIn } from "./Variant/SlideIn";
 
 export function Comments() {
