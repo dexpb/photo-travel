@@ -39,7 +39,7 @@ export function BestOptions() {
               initial="hidden"
               whileInView="show"
               viewport={{ once: true, amount: 0.7 }}
-              className="text-5xl uppercase lg:text-9xl"
+              className="text-4xl uppercase lg:text-9xl"
             >
               Apaixonante
             </motion.h1>

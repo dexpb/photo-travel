@@ -11,7 +11,7 @@ export function Footer() {
         viewport={{ once: true, amount: 0.7 }}
         className="h-full w-full bg-white p-20 font-bold text-black"
       >
-        <h1 className="font-anton text-8xl font-extrabold uppercase lg:text-[240px]">
+        <h1 className="font-anton text-7xl font-extrabold uppercase lg:text-[240px]">
           Photo Travel
         </h1>
         <p className="font-inter text-3xl text-zinc-500  lg:w-5/6 lg:text-7xl">
