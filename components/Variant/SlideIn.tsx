@@ -1,4 +1,4 @@
-export const slideIn = (direction: string, delay: any) => {
+export const slideIn = (direction: string, delay: number) => {
     return {
       hidden: {
         opacity: 0,
