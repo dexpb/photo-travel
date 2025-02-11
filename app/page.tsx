@@ -1,3 +1,4 @@
+'use client'
 import { ServicesDiv } from "@/components/sevices";
 import { BestOptions } from "./../components/best-options";
 import { Comments } from "@/components/comments";

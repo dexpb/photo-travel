@@ -1,4 +1,3 @@
-'use client'
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Image from "next/image";
@@ -19,13 +18,13 @@ export function ContactUs() {
     });
   }, []);
   return (
-    <div>
+  
       <div className="flex flex-col lg:flex-row" ref={swiperRef}>
         <Image
           src="/contact-us.png"
           className="h-full w-full object-cover"
           alt="Fale conosco"
-          width={0}
+          width={900}
           height={0}
           loading="lazy"
         />
@@ -55,6 +54,6 @@ export function ContactUs() {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }

@@ -18,7 +18,7 @@ const AnimatedParagraph: React.FC<AnimatedParagraphProps> = ({
   viewport = { once: true, amount: 0.7 },
   className,
 }) => {
-  return (
+  return ( 
     <motion.p
       variants={variants}
       initial={initial}

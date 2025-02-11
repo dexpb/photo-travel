@@ -1,4 +1,4 @@
-'use client'
+
 import { motion } from "motion/react";
 import { slideIn } from "./Variant/SlideIn";
 export function Footer() {
