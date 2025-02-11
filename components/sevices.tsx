@@ -53,7 +53,7 @@ export function ServicesDiv() {
             {/* Imagem 1 */}
             <div className="flex lg:w-1/2 flex-col items-start justify-center">
               <Image
-                src="/person-street.svg"
+                src="/person-street.png"
                 className="h-full w-full object-cover"
                 alt="Pessoa na rua em Londres"
                 width={500}
@@ -69,7 +69,7 @@ export function ServicesDiv() {
             {/* Imagem 2 */}
             <div className="flex lg:w-1/2 flex-col items-start justify-center">
               <Image
-                src="/woman-beach.svg"
+                src="/woman-beach.png"
                 className="h-full w-full object-cover"
                 alt="Mulher na praia"
                 width={500}
@@ -85,7 +85,7 @@ export function ServicesDiv() {
             {/* Imagem 3 */}
             <div className="flex lg:w-1/2 flex-col items-start justify-center">
               <Image
-                src="/woman-photography.svg"
+                src="/woman-photography.png"
                 className="h-full w-full object-cover"
                 alt="Mulher tirando foto"
                 width={500}
@@ -101,7 +101,7 @@ export function ServicesDiv() {
             {/* Imagem 4 */}
             <div className="flex lg:w-1/2 flex-col items-start justify-center">
               <Image
-                src="/woman-church.svg"
+                src="/woman-church.png"
                 className="h-full w-full object-cover"
                 alt="Mulher em uma igreja"
                 width={500}

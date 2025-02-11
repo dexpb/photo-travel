@@ -28,7 +28,7 @@ export function BestOptions() {
         <div className="flex flex-col lg:flex-row">
           <Image
             className="h-3/5 w-full object-cover lg:h-full lg:w-[900px]"
-            src="/couple.svg"
+            src="/couple.png"
             alt="Casal viajando"
             width={900}
             height={600}
@@ -56,7 +56,7 @@ export function BestOptions() {
         <div className="flex flex-col lg:flex-row">
           <Image
             className="h-3/5 w-full object-cover lg:h-full lg:w-[900px]"
-            src="/comfortable.svg"
+            src="/comfortable.png"
             alt="Viagem confortável"
             width={900}
             height={600}
@@ -85,7 +85,7 @@ export function BestOptions() {
         <div className="flex flex-col lg:flex-row">
           <Image
             className="h-3/5 w-full object-cover lg:h-full lg:w-[900px]"
-            src="/person-street.svg"
+            src="/person-street.png"
             alt="Pessoa explorando cidade"
             width={900}
             height={600}

@@ -22,7 +22,7 @@ export function ContactUs() {
     <div>
       <div className="flex flex-col lg:flex-row" ref={swiperRef}>
         <Image
-          src="/contact-us.svg"
+          src="/contact-us.png"
           className="h-full w-full object-cover"
           alt="Fale conosco"
           width={0}

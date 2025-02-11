@@ -29,7 +29,7 @@ export default function SwiperImages() {
       >
         <SwiperSlide className="flex items-center justify-center text-center text-lg">
           <Image
-            src="/egypt.svg"
+            src="/egypt.png"
             alt=""
             className="w-full"
             width={500}
@@ -38,7 +38,7 @@ export default function SwiperImages() {
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center text-center text-lg">
           <Image
-            src="/night-city.svg"
+            src="/night-city.png"
             className="w-full object-fill"
             alt=""
             width={500}
