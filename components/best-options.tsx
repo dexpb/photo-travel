@@ -27,7 +27,7 @@ export function BestOptions() {
       <div className="flex bg-zinc-900">
         <div className="flex flex-col lg:flex-row">
           <Image
-            className="h-3/5 w-4/6 object-cover lg:h-full lg:w-[900px]"
+            className="h-3/5 w-screen object-cover lg:h-full lg:w-[900px]"
             src="/couple.png"
             alt="Casal viajando"
             width={900}
@@ -55,7 +55,7 @@ export function BestOptions() {
       <div className="flex bg-zinc-950">
         <div className="flex flex-col lg:flex-row">
           <Image
-            className="h-3/5 w-4/6 object-cover lg:h-full lg:w-[900px]"
+            className="h-3/5 w-screen object-cover lg:h-full lg:w-[900px]"
             src="/comfortable.png"
             alt="Viagem confortável"
             width={900}
