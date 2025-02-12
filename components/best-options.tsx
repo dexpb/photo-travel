@@ -7,7 +7,7 @@ import AnimatedParagraph from "./animated-paragraphs";
 export function BestOptions() {
   return (
     <div className="h-full bg-zinc-950">
-      <div className="m-20 flex w-4/6 flex-col gap-10">
+      <div className="m-20 flex w-full lg:w-4/6 flex-col gap-10">
         <motion.h1
           variants={slideIn("up", 0.01)}
           initial="hidden"
@@ -55,7 +55,7 @@ export function BestOptions() {
       <div className="flex bg-zinc-950">
         <div className="flex flex-col lg:flex-row">
           <Image
-            className="h-3/5 object-cover lg:h-full lg:w-[900px]"
+            className="h-3/5 w-full object-cover lg:h-full lg:w-[900px]"
             src="/comfortable.png"
             alt="Viagem confortável"
             width={900}
