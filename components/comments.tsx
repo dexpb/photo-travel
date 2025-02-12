@@ -1,4 +1,4 @@
-
+"use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { slideIn } from "./Variant/SlideIn";
@@ -11,7 +11,7 @@ export function Comments() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
-        className="m-20 flex flex-col gap-10 w-4/6"
+        className="m-20 flex w-4/6 flex-col gap-10"
       >
         <h1 className="text-5xl uppercase lg:text-[180px]">
           O que dizem nossos clientes
@@ -31,7 +31,13 @@ export function Comments() {
         >
           <div className="flex w-full bg-zinc-800 font-inter lg:w-2/6">
             <div className="m-20 flex flex-col justify-between gap-10">
-              <Image src="/aspas.svg" alt="aspas" width={50} height={50} loading="lazy"/>
+              <Image
+                src="/aspas.svg"
+                alt="aspas"
+                width={50}
+                height={50}
+                loading="lazy"
+              />
               <h1 className="text-3xl font-bold">
                 Uma experiência sem preocupações em Toscana
               </h1>
@@ -58,7 +64,13 @@ export function Comments() {
           </div>
           <div className="flex w-full bg-zinc-700 font-inter lg:w-2/6">
             <div className="m-20 flex flex-col justify-between gap-10">
-              <Image src="/aspas.svg" alt="aspas" width={50} height={50} loading="lazy" />
+              <Image
+                src="/aspas.svg"
+                alt="aspas"
+                width={50}
+                height={50}
+                loading="lazy"
+              />
               <h1 className="text-3xl font-bold">
                 Lua de mel perfeita em Santorini
               </h1>
@@ -83,7 +95,13 @@ export function Comments() {
           </div>
           <div className="flex w-full bg-zinc-800 font-inter lg:w-2/6">
             <div className="m-20 flex flex-col justify-between gap-10">
-              <Image src="/aspas.svg" alt="aspas" width={50} height={50} loading="lazy" />
+              <Image
+                src="/aspas.svg"
+                alt="aspas"
+                width={50}
+                height={50}
+                loading="lazy"
+              />
               <h1 className="text-3xl font-bold">
                 Solução para todos meus problemas de viagem em Patagônia
               </h1>
@@ -118,7 +136,13 @@ export function Comments() {
         >
           <div className="flex w-full bg-zinc-700 font-inter lg:w-2/6">
             <div className="m-20 flex flex-col justify-between gap-10">
-              <Image src="/aspas.svg" alt="aspas" width={50} height={50} loading="lazy" />
+              <Image
+                src="/aspas.svg"
+                alt="aspas"
+                width={50}
+                height={50}
+                loading="lazy"
+              />
               <h1 className="text-3xl font-bold">
                 Aniversário de 10 anos de casamento nas Maldivas
               </h1>
@@ -144,7 +168,13 @@ export function Comments() {
           </div>
           <div className="flex w-full bg-zinc-800 font-inter lg:w-2/6">
             <div className="m-20 flex flex-col justify-between gap-10">
-              <Image src="/aspas.svg" alt="aspas" width={50} height={50} loading="lazy"/>
+              <Image
+                src="/aspas.svg"
+                alt="aspas"
+                width={50}
+                height={50}
+                loading="lazy"
+              />
               <h1 className="text-3xl font-bold">
                 Viagem Romântica para Paris
               </h1>
@@ -171,7 +201,13 @@ export function Comments() {
           </div>
           <div className="flex w-full bg-zinc-700 font-inter lg:w-2/6">
             <div className="m-20 flex flex-col justify-between gap-10">
-              <Image src="/aspas.svg" alt="aspas" width={50} height={50} loading="lazy"/>
+              <Image
+                src="/aspas.svg"
+                alt="aspas"
+                width={50}
+                height={50}
+                loading="lazy"
+              />
               <h1 className="text-3xl font-bold">
                 Viagem de Aniversário para o Japão
               </h1>

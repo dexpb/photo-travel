@@ -10,7 +10,6 @@ import gsap from "gsap";
 
 export default function SwiperImages() {
   gsap.registerPlugin(ScrollTrigger);
-
   return (
     <div className="flex flex-col lg:min-h-screen">
       <Swiper
@@ -33,6 +32,7 @@ export default function SwiperImages() {
             className="w-full"
             width={500}
             height={500}
+            priority
           />
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center text-center text-lg">

@@ -1,4 +1,4 @@
-
+"use client";
 import { HomeSide } from "./home";
 import SwiperImages from "./swiper";
 import { useEffect, useRef } from "react";
@@ -21,7 +21,6 @@ export function HeaderAndCard() {
       },
     });
   }, []);
-
   return (
     <div className="flex flex-col bg-zinc-950 lg:flex-row">
       {/* Container do Swiper fixado */}

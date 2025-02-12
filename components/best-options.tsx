@@ -1,6 +1,6 @@
-
+"use client";
 import Image from "next/image";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 import { slideIn } from "./Variant/SlideIn";
 import AnimatedParagraph from "./animated-paragraphs";
 

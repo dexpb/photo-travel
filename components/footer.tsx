@@ -1,9 +1,8 @@
-
+'use client'
 import { motion } from "motion/react";
 import { slideIn } from "./Variant/SlideIn";
 export function Footer() {
   return (
-    <div>
       <motion.div
         variants={slideIn("up", 0.01)}
         initial="hidden"
@@ -32,6 +31,5 @@ export function Footer() {
           </ul>
         </div>
       </motion.div>
-    </div>
   );
 }

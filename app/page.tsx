@@ -1,4 +1,3 @@
-'use client'
 import { ServicesDiv } from "@/components/sevices";
 import { BestOptions } from "./../components/best-options";
 import { Comments } from "@/components/comments";
@@ -8,7 +7,7 @@ import { HeaderAndCard } from "@/components/header";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col dark:text-tahiti">
+    <div className="flex min-h-screen flex-col text-tahiti">
       <HeaderAndCard />
       <ServicesDiv />
       <BestOptions />

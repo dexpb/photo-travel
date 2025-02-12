@@ -1,10 +1,10 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { slideIn } from "./Variant/SlideIn";
 import AnimatedParagraph from "./animated-paragraphs";
 
 export function HomeSide() {
   return (
-    <div>
+    <>
       <div className="flex flex-col lg:mx-20 lg:my-32">
         <motion.h1
           variants={slideIn("up", 0.01)}
@@ -65,6 +65,6 @@ export function HomeSide() {
           variants={slideIn("up", 0.2)}
         />
       </motion.div>
-    </div>
+    </>
   );
 }
